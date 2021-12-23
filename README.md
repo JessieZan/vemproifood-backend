@@ -1,3 +1,52 @@
+# To start this project run on terminal
+
+-- npm i (inside de root of repository)
+-- npm run dev
+
+### Use 
+
+### Used Technologies
+
+- Express
+- Axios
+- Nodemon
+- qs
+
+## End-Points
+
+#### Get music sugestions based on how is the weather on your city
+
+### Endpoint - https://localhost:8000/tracks/:city
+
+### GET
+#### Dados Enviados
+
+Name of the city (params)
+
+```JSON
+   No Body
+```
+
+#### Dados Recebidos 
+
+List of sugested tracks
+
+``` JSON
+[
+  "Classical Piano Music for Baby Sleep",
+  "Sonata No. 14 Moonlight in C-Sharp Minor Op. 27 No. 2: I. Adagio sostenuto",
+  "Classical Gas",
+  "Erbarm dich mein o Herre Gott, BWV 721",
+  "Classical",
+  "Classical Baby",
+  "Toccata and Fugue in D Minor, BWV 538",
+  "Classical",
+  "Classical Piano for Sleeping Music",
+  "Toccata and Fugue in D Minor BWV 565"
+]
+```
+---
+
 # #VemProiFood! - Backend Challenge
 
 Create a micro-service able to accept RESTful requests receiving as parameter
